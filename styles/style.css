@@ -5,10 +5,6 @@
   padding: 92px 49px 92px 51px; 
 }
 
-.header_menu {
-  
-} 
-
 .header_links-list {
   display: flex;
   flex-direction: row;
@@ -56,10 +52,10 @@
 .cover {
   position: relative;
   z-index: 0;
+  padding: 0px 50px 50px 0px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 0px 50px 50px 0px;
 
 }
 .overlay {
@@ -183,7 +179,6 @@ background: transparent;
   max-width: 100%;
   min-height: 450px;  
   padding: 50px 40px;
-
 }
 
 .card_type_film {
@@ -316,10 +311,6 @@ line-height: normal;
   flex-direction: row; 
   gap: 47px;
   list-style: none;
-}
-
-.footer_social-list-item {
-
 }
 
 .footer_social-link {
