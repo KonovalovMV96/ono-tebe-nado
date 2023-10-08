@@ -43,7 +43,7 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px; /* 135% */
-} 
+}
 
 .header_address {
   justify-self: end;
@@ -55,6 +55,7 @@
   padding: 0px 50px 50px 0px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -69,11 +70,11 @@
 }
 
 .cover_title {
-  padding: 165px 0px 130px 50px;
-  color: #FFF;
+  padding: 165px 0px 135px 50px;
+  color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 115%; /* 115px */
+  line-height: 100%; /* 115px */
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -82,17 +83,21 @@
   display: block;
 }
 
+.aligned-text_big {
+  line-height: 115%;
+}
+
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
 
 .aligned-text_center {
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .aligned-text_right {
-  margin-top: 5px;
+  margin-top: 20px;
   text-align: right;
 }
 
@@ -106,7 +111,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 78px;
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px; /* 127.273% */
@@ -115,7 +120,7 @@
 }
 
 .cover_description-text {
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -128,7 +133,7 @@
 .bet-button {
   border: 1px solid #fff;
   padding: 12px 32px;
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -199,7 +204,7 @@
 }
 
 .card_title {
-  color: #FFF;
+  color: #fff;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%; /* 26.4px */
@@ -208,7 +213,7 @@
 }
 
 .card_text {
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%; /* 24px */
@@ -223,6 +228,7 @@
   font-size: 20px;
   font-style: normal;
   line-height: normal;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -317,5 +323,5 @@
 }
 
 .footer_social-icon {
- width: 100%;
+  width: 100%;
 }
